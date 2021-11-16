@@ -1,0 +1,49 @@
+.About-container
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:800px;
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 15% 30%, #006DFF 0%, #052882 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 15% 30%, #006DFF 0%, #052882 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 15% 30%, #006DFF 0%, #052882 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 15% 30%, #006DFF 0%, #052882 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 15% 30%, #006DFF 0%, #052882 100%);
+
+
+
+}
+.About-info{
+    display: grid;
+    grid-auto-columns: minmax(auto,1fr);
+    align-items: center;
+    grid-template-areas: "col1 col2";
+
+}
+
+.column1{
+    margin-bottom: 15px;
+    padding: 0 15px;
+    grid-area: col1;
+}
+.column2{
+    margin-bottom: 15px;
+    padding: 0 15px;
+    grid-area: col2;
+}
+h1{
+    color:white;
+}
+p{
+    color:white;
+}
